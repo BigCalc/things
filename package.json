@@ -1,0 +1,38 @@
+{
+  "name": "",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "",
+  "contributors": [],
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "coffee-script": "1.x.x"
+  },
+  "devDependencies": {
+    "vows": "0.x.x",
+    "zombie": "0.x.x",
+    "should": "0.x.x",
+    "benchmark": "0.x.x",
+    "sinon": "1.x.x",
+    "vows-bdd": "0.x.x"
+  },
+  "engines": {
+    "node": "0.4.x",
+    "npm": "1.x.x"
+  },
+  "licenses": [{
+    "type": "",
+    "url": "http://github.com/<username>/<project>/raw/master/LICENSE"
+  }],
+  "repository": {
+      "type": "git",
+      "url": "git://github.com/<username>/<project>.git"
+  },
+  "bugs": { "url": "http://github.com/<username>/<project>/issues" },
+  "scripts": {
+    "start": "cake start",
+    "test": "vows app/test/* --spec"
+  }
+}
