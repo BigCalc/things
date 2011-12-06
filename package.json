@@ -1,38 +1,36 @@
 {
-  "name": "",
-  "version": "0.0.0",
-  "description": "",
-  "keywords": [],
-  "homepage": "",
-  "contributors": [],
-  "private": true,
+  "name": "things",
+  "version": "0.0.1",
+  "description": "common imports",
+  "keywords": ["common"],
+  "homepage": "http://github.com/quillu/things",
+  "contributors": ["Dharmesh Malam <d@quillu.com> (http://dharmeshmalam.com)",
+                   "Rikin Shah <r@quillu.com> (http://twitter.com/rik1shah)"],
   "main": "index.js",
   "dependencies": {
-    "coffee-script": "1.x.x"
+    "coffee-script": "1.x.x",
+    "underscore": "x.x.x",
+    "underscore.string": "1.x.x",
+    "moment":"x.x.x"
   },
   "devDependencies": {
     "vows": "0.x.x",
-    "zombie": "0.x.x",
-    "should": "0.x.x",
-    "benchmark": "0.x.x",
-    "sinon": "1.x.x",
-    "vows-bdd": "0.x.x"
+    "should": "0.x.x"
   },
   "engines": {
-    "node": "0.4.x",
+    "node": "0.x.x",
     "npm": "1.x.x"
   },
   "licenses": [{
-    "type": "",
-    "url": "http://github.com/<username>/<project>/raw/master/LICENSE"
+    "type": "ISC",
+    "url": "http://github.com/quillu/things/raw/master/LICENSE"
   }],
   "repository": {
       "type": "git",
-      "url": "git://github.com/<username>/<project>.git"
+      "url": "git://github.com/quillu/things.git"
   },
-  "bugs": { "url": "http://github.com/<username>/<project>/issues" },
+  "bugs": { "url": "http://github.com/quillu/things/issues" },
   "scripts": {
-    "start": "cake start",
-    "test": "vows app/test/* --spec"
+    "test": "cake test"
   }
 }

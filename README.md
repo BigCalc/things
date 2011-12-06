@@ -1,11 +1,11 @@
-<ProjectName> Source
+Things Source
 ============
 
 Developer instructions
 ----------------------
 
 * Ensure git, node and npm are installed
-* git clone git@github.com:<username>/<project>.git
+* git clone git@github.com:quillu/things.git
 * switch to dev branch, and make it track origin/dev
 * run npm install
 * run npm link ( this installs dev dependencies and symlinks the project to your global npm registry)
@@ -13,7 +13,6 @@ Developer instructions
 ** coffee-script
 ** nodemon
 ** vows
-** sideline
 
 CakeFile
 --------
@@ -43,4 +42,5 @@ Follow github best practices
 Features
 --------
 
-* Add features
+* Underscore
+* Moment

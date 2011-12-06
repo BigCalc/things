@@ -1,3 +1,4 @@
 require("coffee-script");
-// Start Coffe-script server
-require("./start")();
+// Export library
+
+module.exports = require('./lib/common');
