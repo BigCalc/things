@@ -1,6 +1,39 @@
 Things Source
 ============
 
+Things is a module that exports commonly used modules for coffee-script
+
+
+Install
+-------
+```
+npm install things
+```
+
+Usage
+-----
+
+```coffee-script
+
+{path, fs, util, crypto, _, moment} = require 'things'
+
+```
+
+or import only what you need
+
+```coffee-script
+
+{fs, _} = require 'things'
+
+```
+
+Features
+--------
+
+* Underscore
+* Underscore.date
+* Moment
+
 Developer instructions
 ----------------------
 
@@ -18,6 +51,13 @@ CakeFile
 --------
 A Cakefile is used to manage the app
 type cake at the root directory to see a list of commands
+
+Test
+----
+run
+```
+cake test
+```
 
 Developer flow
 --------------
@@ -38,9 +78,3 @@ Follow github best practices
 * Merge onto master, and push (should be fast-forward)
 * Once ready for release, tag master.
 * Make branch bugfixes on a version branch off master
-
-Features
---------
-
-* Underscore
-* Moment
