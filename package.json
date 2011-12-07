@@ -14,8 +14,7 @@
     "moment":"x.x.x"
   },
   "devDependencies": {
-    "vows": "0.x.x",
-    "should": "0.x.x"
+    "testthings": "0.x.x"
   },
   "engines": {
     "node": "0.x.x",
