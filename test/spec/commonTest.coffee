@@ -15,5 +15,8 @@ vows.describe('common').addBatch(
       should.isFunction c._
     'it should respond to moment': (c) ->
       should.isFunction c.moment
+    'it should respond to async': (c) ->
+      should.exist c.async
+
 
 ).export module
