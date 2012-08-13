@@ -38,6 +38,16 @@ task 'test:spec', 'Run BDD specifications', ->
   files = getFiles 'test/spec', /.*\.coffee/i
   execute "NODE_ENV=test vows #{VOWS_OPTS} #{files}"
 
-
 task 'test', 'Run all tests', ->
   invoke 'test:spec'
+
+# task 'deploy:github', 'Push and tag in github' ->
+#   execute "git tag"
+
+# task 'deploy:version', 'Increment version' ->
+#   execute ""
+
+# task 'deploy:npm', 'Publish to NPM' ->
+#   execute "npm publish"
+
+# task 'deploy', 'Deploy new version'

@@ -12,7 +12,10 @@
     "underscore": "x.x.x",
     "underscore.string": "1.x.x",
     "moment": "x.x.x",
-    "async": "x.x.x"
+    "async": "x.x.x",
+    "i": "x.x.x",
+    "rimraf": "x.x.x",
+    "mkdirp": "x.x.x"
   },
   "devDependencies": {
     "testthings": "0.x.x"

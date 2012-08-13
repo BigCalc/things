@@ -1,8 +1,8 @@
 Things Source
 ============
 
-Things is a module that exports commonly used modules for coffee-script
-
+Things is a module that exports commonly used utilities. Avoids having several lines of boilerplate imports in every file.
+Designed to be used with the destructruing syntax from CoffeScript or JavaScript ES5.
 
 Install
 -------
@@ -39,12 +39,9 @@ Developer instructions
 
 * Ensure git, node and npm are installed
 * git clone git@github.com:quillu/things.git
-* switch to dev branch, and make it track origin/dev
 * run npm install
 * run npm link ( this installs dev dependencies and symlinks the project to your global npm registry)
 * Install the following globally via npm install -g
-** coffee-script
-** nodemon
 ** vows
 
 CakeFile
@@ -70,7 +67,6 @@ Follow github best practices
 * Make test pass
 * Refactor
 * Commit
-* Push to remote branch
 * Repeat till feature is finished
 * Then update master to latest from origin (should be fast forward)
 * Rebase your branch to be ontop of master
