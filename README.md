@@ -2,7 +2,9 @@
 
 [![Build Status](https://travis-ci.org/BigCalc/things.png?branch=master)](https://travis-ci.org/BigCalc/things)
 
-Things is a simple CommonJS module that exports commonly used utilities and a set of best of breed selected 3rd party utility modules. It purely exists to avoid having several lines of boilerplate imports in every file and is designed to be used with the destructuring syntax from CoffeScript or JavaScript ES6.
+[![NPM](https://nodei.co/npm/things.png?downloads=true)](https://nodei.co/npm/things/)
+
+Things is a simple CommonJS module that exports commonly used utilities and a set of best of breed selected 3rd party utility modules. It purely exists to avoid having several lines of boilerplate imports in every file and is designed to be used with the destructuring syntax from CoffeScript or JavaScript ES6. Modules are lazy loaded so they only add delay once they are used.
 
 ## Install ##
 
@@ -76,4 +78,4 @@ Create a Github issues for all bugs, features & requests. Pull requests are welc
 Test with `npm test`
 
 ## License ##
-BSD 3-Clause
+[BSD 3-Clause](LICENSE)
