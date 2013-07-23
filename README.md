@@ -1,76 +1,76 @@
-Things Source
-============
+# Things #
+Things is a simple CommonJS module that exports commonly used utilities and a set of best of breed selected 3rd party utility modules. It purely exists to avoid having several lines of boilerplate imports in every file and is designed to be used with the destructuring syntax from CoffeScript or JavaScript ES6.
 
-Things is a module that exports commonly used utilities. Avoids having several lines of boilerplate imports in every file.
-Designed to be used with the destructruing syntax from CoffeScript or JavaScript ES5.
+## Install ##
 
-Install
--------
 ```
-npm install things
+npm install --save things
 ```
 
-Usage
------
+## Usage ##
+Just import whatever you need.
+
+In JavaScript ES6,
+
+```js
+{path, fs, util, crypto, _, moment} = require('things');
+```
+
+or in Coffee-Script
 
 ```coffee-script
-
-{path, fs, util, crypto, _, moment} = require 'things'
-
+{assert, _} = require 'things'
 ```
 
-or import only what you need
+or in JS5
 
-```coffee-script
-
-{fs, _} = require 'things'
-
+```js
+var things = require('things');
+things._(...);
+things.fs(...); 
 ```
 
-Features
---------
+vs
 
-* Underscore
-* Underscore.date
-* Moment
-
-Developer instructions
-----------------------
-
-* Ensure git, node and npm are installed
-* git clone git@github.com:quillu/things.git
-* run npm install
-* run npm link ( this installs dev dependencies and symlinks the project to your global npm registry)
-* Install the following globally via npm install -g
-** vows
-
-CakeFile
---------
-A Cakefile is used to manage the app
-type cake at the root directory to see a list of commands
-
-Test
-----
-run
-```
-cake test
+```js
+var fs = require('fs');
+var url = require('url');
+var _ = require('lodash');
+var moment = require('moment');
+var async = require('async');
+...
 ```
 
-Developer flow
---------------
-Follow github best practices
+## Includes ##
 
-* Update to latest from master (should be fast forward)
-* Create a new feature branch off master
-* Push branch to origin
-* Write a test
-* Make test pass
-* Refactor
-* Commit
-* Repeat till feature is finished
-* Then update master to latest from origin (should be fast forward)
-* Rebase your branch to be ontop of master
-* Squash your commits into a atomic feature commit (should have a big log message auto created from the little commits)
-* Merge onto master, and push (should be fast-forward)
-* Once ready for release, tag master.
-* Make branch bugfixes on a version branch off master
+### Builtins exported for convienence ###
+* assert
+* util
+* fs
+* path
+* url
+* querystring
+* crypto
+
+### Third Party modules ###
+* [moment](http://momentjs.com/)
+* [async](https://github.com/caolan/async)
+* [mkdirp]()
+* [rimraf]()
+* [lazy]()
+* [numeral]()
+* [q]()
+
+### Underscore related ###
+* [lodash](http://lodash.com/)
+* [underscore.string](http://epeli.github.io/underscore.string/)
+* [underscore.inflections](https://github.com/geetarista/underscore.inflections)
+ 
+## Developer ###
+Create a Github issues for all bugs, features & requests. Pull requests are welcome.
+
+## Test ###
+Test with `npm test`
+
+## License ##
+BSD 3-Clause
