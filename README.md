@@ -1,4 +1,4 @@
-# Things <sup>[![Version Badge](http://vb.teelaun.ch/BigCalc/things.svg#0.4.0)](https://npmjs.org/package/things)</sup> #
+# Things #
 
 [![Build Status](https://travis-ci.org/BigCalc/things.png?branch=master)](https://travis-ci.org/BigCalc/things)
 
@@ -72,7 +72,7 @@ var async = require('async');
 * [underscore.inflections](https://github.com/geetarista/underscore.inflections)
  
 ## Developer ###
-Create a Github issues for all bugs, features & requests. Pull requests are welcome.
+Create Github issues for all bugs, features & requests. Pull requests are welcome.
 
 ## Test ###
 Test with `npm test`
