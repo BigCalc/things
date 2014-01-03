@@ -13,6 +13,7 @@ assert(things.querystring.parse, 'it should have querystring');
 assert(things.crypto.rng, 'it should have crypto');
 
 // Check external
+assert(things.debug.name === 'debug', 'it should have debug');
 assert(things.moment.utc, 'it should have moment');
 assert(things.async.some, 'it should have async');
 assert(things.mkdirp.mkdirP, 'it should have mkdirp');
@@ -20,6 +21,7 @@ assert(things.rimraf.sync, 'it should have rimraf');
 assert(things.lazy.range, 'it should have lazy');
 assert(things.numeral.isNumeral, 'it should have numeral');
 assert(things.q.fin, 'it should have q');
+assert(things.color.red, 'it should have cli-color');
 
 // Check lodash plugins
 assert(things._, 'it should have _');
