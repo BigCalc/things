@@ -60,11 +60,12 @@ var async = require('async');
 ### Third Party modules ###
 * [moment](http://momentjs.com/)
 * [async](https://github.com/caolan/async)
-* [mkdirp]()
-* [rimraf]()
-* [lazy]()
-* [numeral]()
-* [q]()
+* [mkdirp](https://github.com/substack/node-mkdirp)
+* [rimraf](https://github.com/isaacs/rimraf)
+* [numeral](https://github.com/adamwdraper/Numeral-js)
+* [q](https://github.com/kriskowal/q)
+* [cli-color](https://github.com/medikoo/cli-color)
+* [debug](https://github.com/visionmedia/debug)
 
 ### Underscore related ###
 * [lodash](http://lodash.com/)
@@ -75,7 +76,7 @@ var async = require('async');
 Create Github issues for all bugs, features & requests. Pull requests are welcome.
 
 ## Test ###
-Test with `npm test`
+Test with `grunt test`
 
 ## License ##
 [BSD 3-Clause](LICENSE)

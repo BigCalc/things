@@ -18,7 +18,18 @@
     "rimraf": "x.x.x",
     "mkdirp": "x.x.x",
     "q": "x.x.x",
-    "numeral": "x.x.x"
+    "numeral": "x.x.x",
+    "debug": "x.x.x",
+    "cli-color": "x.x.x",
+    "bytes": "x.x.x"
+  },
+  "devDependencies": {
+    "grunt": "x.x.x",
+    "matchdep": "x.x.x",
+    "grunt-contrib-jshint": "x.x.x",
+    "grunt-jsonlint": "x.x.x",
+    "grunt-shell": "x.x.x",
+    "grunt-push-release": "x.x.x"
   },
   "engines": {
     "node": "0.x.x",

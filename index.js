@@ -1,4 +1,6 @@
 // © 2013 QUILLU INC.
+// things
+'use strict';
 
 var common = module.exports;
 
@@ -10,36 +12,50 @@ var modules = ['assert',
                'url',
                'querystring',
                'crypto',
+               'debug',
                'moment',
                'async',
                'mkdirp',
                'rimraf',
                ['lazy', 'lazy.js'],
                'numeral',
-               'q'];
+               'q',
+               ['color', 'cli-color']];
 
-// Define lazy loaded getter
-var m, n, i, _len;
-var define = function(m,n){
+
+// Define a lazy loaded getter
+var define = function(n, m){
   Object.defineProperty(common, n, {
-   get: function() {
-      return (common[n] = require(m));
-    }
+    get: function() {
+      var lib = typeof(m) === 'function' ?
+               m() :
+               require(m);
+
+      Object.defineProperty(common, n, {
+        value: lib
+      });
+      return lib;
+    },
+    configurable:true
   });
 };
 
+// Add each module
+var m, n, i, _len;
 for(i = 0, _len = modules.length; i < _len; i++) {
-  m = n = modules[i];
+  n = m = modules[i];
   if (Array.isArray(m)) {
     n = m[0];
     m = m[1];
   }
 
-  define(m,n);
-
+  define(n,m);
 }
 
 // Underscore
-common._ = require('lodash');
-common._.mixin(require('underscore.string'));
-common._.mixin(require('underscore.inflections'));
+define('_', function(){
+  var _ = require('lodash');
+  _.mixin(require('underscore.string'));
+  _.mixin(require('underscore.inflections'));
+  return _;
+});
