@@ -1,4 +1,4 @@
-// © 2013 QUILLU INC.
+// © 2014 QUILLU INC.
 
 var things = require('./index');
 var assert = require('assert');

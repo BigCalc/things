@@ -1,6 +1,6 @@
 {
   "name": "things",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "common imports",
   "keywords": [
     "common",
@@ -9,30 +9,31 @@
   "homepage": "http://github.com/bigcalc/things",
   "main": "index.js",
   "dependencies": {
-    "lodash": "x.x.x",
-    "underscore.string": "x.x.x",
-    "underscore.inflections": "x.x.x",
-    "moment": "x.x.x",
-    "lazy.js": "x.x.x",
-    "async": "x.x.x",
-    "rimraf": "x.x.x",
-    "mkdirp": "x.x.x",
-    "q": "x.x.x",
-    "numeral": "x.x.x",
-    "debug": "x.x.x",
-    "cli-color": "x.x.x",
-    "bytes": "x.x.x"
+    "lodash": "~2.4.1",
+    "underscore.string": "~2.3.3",
+    "underscore.inflections": "~0.2.1",
+    "moment": "~2.5.1",
+    "lazy.js": "~0.3.2",
+    "async": "~0.2.10",
+    "rimraf": "~2.2.6",
+    "mkdirp": "~0.3.5",
+    "q": "~1.0.0",
+    "numeral": "~1.5.3",
+    "debug": "~0.7.4",
+    "cli-color": "~0.2.3",
+    "bytes": "~0.2.1",
+    "grunt-shell": "~0.6.4"
   },
   "devDependencies": {
-    "grunt": "x.x.x",
-    "matchdep": "x.x.x",
-    "grunt-contrib-jshint": "x.x.x",
-    "grunt-jsonlint": "x.x.x",
-    "grunt-shell": "x.x.x",
-    "grunt-push-release": "x.x.x"
+    "grunt": "~0.4.2",
+    "matchdep": "~0.3.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-jsonlint": "~1.0.4",
+    "grunt-shell": "~0.6.4",
+    "grunt-push-release": "~0.1.1"
   },
   "engines": {
-    "node": "0.x.x",
+    "node": "0.10.x",
     "npm": "x.x.x"
   },
   "licenses": [

@@ -1,4 +1,4 @@
-// © 2013 QUILLU INC.
+// © 2014 QUILLU INC.
 // things GruntFile
 'use strict';
 
@@ -48,9 +48,7 @@ module.exports = function (grunt) {
         files: ['package.json'],
         releaseBranch: ['master'],
         add: false,
-        commit: true,
-        commitMessage: 'Release v%VERSION%',
-        commitFiles: ['package.json'],
+        commit: false,
         createTag: true,
         tagName: 'v%VERSION%',
         tagMessage: 'Version %VERSION%',
