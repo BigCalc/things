@@ -47,8 +47,8 @@ module.exports = function (grunt) {
       options: {
         files: ['package.json'],
         releaseBranch: ['master'],
-        add: false,
-        commit: false,
+        add: true,
+        commit: true,
         createTag: true,
         tagName: 'v%VERSION%',
         tagMessage: 'Version %VERSION%',
