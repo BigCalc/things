@@ -8,6 +8,7 @@
   ],
   "homepage": "http://github.com/bigcalc/things",
   "main": "index.js",
+  "browser": "browser.js",
   "dependencies": {
     "lodash": "~2.4.1",
     "underscore.string": "~2.3.3",

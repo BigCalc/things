@@ -1,7 +1,10 @@
 // © 2014 QUILLU INC.
 
 var things = require('./index');
+var browser = require('./browser');
 var assert = require('assert');
+
+// Server
 
 // Check buitins
 assert(things.assert.ok, 'it should have assert');
@@ -27,3 +30,9 @@ assert(things.color.red, 'it should have cli-color');
 assert(things._, 'it should have _');
 assert(things._.reverse, 'it should have _.string');
 assert(things._.singularize, 'it should have _.inflections');
+
+// Browser
+
+// Check lodash
+assert(browser._, 'it should have _');
+assert(browser._.reverse, 'it should have _.string');
