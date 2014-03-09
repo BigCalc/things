@@ -13,6 +13,12 @@ gulp.task('install', shell.task([
   'npm prune'
 ]));
 
+gulp.task('publish', shell.task([
+  'git push',
+  'git push --tags',
+  'npm publish'
+]));
+
 gulp.task('test', function () {
   return gulp.src('test.js')
     .pipe(shell([
