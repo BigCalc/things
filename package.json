@@ -25,12 +25,11 @@
     "grunt-shell": "~0.6.4"
   },
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "matchdep": "~0.3.0",
-    "grunt-contrib-jshint": "~0.8.0",
-    "grunt-jsonlint": "~1.0.4",
-    "grunt-shell": "~0.6.4",
-    "grunt-push-release": "~0.1.1"
+    "gulp": "^3.5.5",
+    "gulp-jshint": "^1.5.0",
+    "gulp-sloc": "^1.0.3",
+    "gulp-json-lint": "0.0.1",
+    "gulp-shell": "^0.2.4"
   },
   "engines": {
     "node": "0.10.x",
