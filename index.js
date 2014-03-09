@@ -10,16 +10,14 @@ var modules = ['assert',
                'fs',
                'path',
                'url',
-               'querystring',
+               ['qs', 'querystring'],
                'crypto',
                'debug',
                'moment',
                'async',
                'mkdirp',
                'rimraf',
-               ['lazy', 'lazy.js'],
                'numeral',
-               'q',
                ['color', 'cli-color']];
 
 
