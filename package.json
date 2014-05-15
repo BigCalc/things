@@ -22,11 +22,8 @@
     "cli-color": "~0.2.3"
   },
   "devDependencies": {
-    "gulp": "^3.5.5",
-    "gulp-jshint": "^1.5.0",
-    "gulp-sloc": "^1.0.3",
-    "gulp-json-lint": "0.0.1",
-    "gulp-shell": "^0.2.4"
+    "jshint": "^2.5.0",
+    "jsonlint": "^1.6.0"
   },
   "engines": {
     "node": "0.10.x",
