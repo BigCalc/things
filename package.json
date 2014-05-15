@@ -6,7 +6,7 @@
     "common",
     "util"
   ],
-  "homepage": "http://github.com/bigcalc/things",
+  "homepage": "http://github.com/OctaveWealth/things",
   "main": "index.js",
   "browser": "browser.js",
   "dependencies": {
@@ -32,15 +32,15 @@
   "licenses": [
     {
       "type": "BSD 3-Clause",
-      "url": "http://github.com/bigcalc/things/raw/master/LICENSE"
+      "url": "http://github.com/OctaveWealth/things/raw/master/LICENSE"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/bigcalc/things.git"
+    "url": "git://github.com/OctaveWealth/things.git"
   },
   "bugs": {
-    "url": "http://github.com/bigcalc/things/issues"
+    "url": "http://github.com/OctaveWealth/things/issues"
   },
   "scripts": {
     "test": "node test.js"

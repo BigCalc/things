@@ -14,5 +14,7 @@
 // Lodash
 var _ = require('lodash');
 _.mixin(require('underscore.string'));
+
+// TODO: underscore inflections
 // _.mixin(require('underscore.inflections'));
 exports._ = _;
