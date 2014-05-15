@@ -10,16 +10,16 @@
   "main": "index.js",
   "browser": "browser.js",
   "dependencies": {
-    "lodash": "~2.4.1",
-    "underscore.string": "~2.3.3",
-    "underscore.inflections": "~0.2.1",
-    "moment": "~2.5.1",
-    "async": "~0.2.10",
-    "rimraf": "~2.2.6",
-    "mkdirp": "~0.3.5",
-    "numeral": "~1.5.3",
-    "debug": "~0.7.4",
-    "cli-color": "~0.2.3"
+    "lodash": "^2.4.1",
+    "underscore.string": "^2.3.3",
+    "underscore.inflections": "^0.2.1",
+    "moment": "^2.6.0",
+    "async": "^0.8.0",
+    "rimraf": "^2.2.8",
+    "mkdirp": "^0.5.0",
+    "numeral": "^1.5.3",
+    "debug": "^0.8.1",
+    "cli-color": "^0.3.2"
   },
   "devDependencies": {
     "jshint": "^2.5.0",
