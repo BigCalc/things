@@ -78,10 +78,10 @@ The following are only exported for use with browserify
 * [lodash](http://lodash.com/)
 * [underscore.string](http://epeli.github.io/underscore.string/)
 
-## Developer ###
-Create Github issues for all bugs, features & requests. Pull requests are welcome.
+## [Contributing](CONTRIBUTING) ##
+Create Github issues for all bugs, features & requests. Pull requests are welcome. Make sure tests are included.
 
-## Test ###
+## Test ##
 Test with `make test`
 
 ## License ##
