@@ -29,7 +29,7 @@ update:
 clean:
 	npm prune
 
-# Test Watch
+# Test
 test:
 	@NODE_ENV='$(NODE_ENV)' node test.js
 
@@ -48,10 +48,9 @@ jshint: $(JS_FILES)
 
 # Publish
 publish: lint test
-	git stash
 	npm version $(VERSION)
 	git push origin master
 	git push --tags
-	git stash pop
+	npm publish
 
 .PHONY: all install update clean test watch lint jsonlint jshint publish
