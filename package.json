@@ -44,5 +44,10 @@
   },
   "scripts": {
     "test": "node test.js"
-  }
+  },
+  "files": [
+    "lib",
+    "index.js",
+    "LICENSE"
+  ]
 }
