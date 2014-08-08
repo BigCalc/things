@@ -27,7 +27,6 @@ assert(things.color.red, 'it should have cli-color');
 // Check lodash
 assert(things._, 'it should have lodash');
 assert(things._.reverse, 'it should have _.string');
-assert(things._.singularize, 'it should have _.inflections');
 
 // Browser
 

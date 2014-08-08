@@ -54,6 +54,5 @@ for(i = 0, _len = modules.length; i < _len; i++) {
 define('_', function () {
   var _ = require('lodash');
   _.mixin(require('underscore.string'));
-  _.mixin(require('underscore.inflections'));
   return _;
 });

@@ -18,7 +18,6 @@
     "moment": ">=2.7.0",
     "numeral": ">=1.5.3",
     "rimraf": ">=2.2.8",
-    "underscore.inflections": ">=0.2.1",
     "underscore.string": ">=2.3.3"
   },
   "devDependencies": {
