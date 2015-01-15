@@ -41,10 +41,10 @@ watch:
 lint: jsonlint jshint
 
 jsonlint: $(JSON_FILES)
-	@for i in $(JSON_FILES); do JSONLINT -q $$i || exit $$?; done
+	@for i in $(JSON_FILES); do $(JSONLINT) -q $$i || exit $$?; done
 
 jshint: $(JS_FILES)
-	@JSHINT -c .jshintrc $(JS_FILES)
+	@$(JSHINT) -c .jshintrc $(JS_FILES)
 
 # Publish
 publish: lint test
