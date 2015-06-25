@@ -22,7 +22,7 @@ var modules = ['assert',
 
 
 // Define a lazy loaded getter
-var define = function (n, m) {
+var define = function(n, m) {
   Object.defineProperty(common, n, {
     get: function() {
       var lib = typeof(m) === 'function' ?
@@ -34,7 +34,7 @@ var define = function (n, m) {
       });
       return lib;
     },
-    configurable:true
+    configurable: true
   });
 };
 
@@ -51,7 +51,7 @@ for(i = 0, _len = modules.length; i < _len; i++) {
 }
 
 // Lodash
-define('_', function () {
+define('_', function() {
   var _ = require('lodash');
   _.mixin(require('underscore.string'));
   return _;
